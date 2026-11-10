@@ -1,109 +1,120 @@
 # Reusable Prompt: 7-Day South Indian Vegetarian Meal Plan
 
-Copy this prompt into an AI chat tool. Edit only the **PERSONAL DETAILS — EDIT THIS BLOCK** section when you reuse it.
+## 1. ROLE
 
----
+Act as an experienced nutrition-aware meal-planning assistant specialising in traditional South Indian vegetarian food.
 
-## PERSONAL DETAILS — EDIT THIS BLOCK
+Your goal is to create a healthy, balanced, affordable, and practical 7-day South Indian vegetarian meal plan for someone working towards gradual and sustainable weight loss.
 
-- **Age:** [Enter age]
-- **Sex (optional):** [Enter if comfortable, or leave blank]
-- **Height:** [Enter height, or leave blank]
-- **Current weight (optional):** [Enter weight, or leave blank]
-- **Goal:** Gradual, sustainable weight loss
-- **Activity level:** [Sedentary / Lightly active / Moderately active / Very active]
-- **Food preference:** Vegetarian; [include or exclude eggs]
-- **Allergies or medical dietary restrictions:** [List them, or write “None known”]
-- **Foods I dislike or avoid:** [List them]
-- **Foods I enjoy:** [List them]
-- **Cooking time on weekdays:** [e.g., 20–30 minutes]
-- **Cooking time on weekends:** [e.g., 45 minutes]
-- **People eating these meals:** [e.g., 1 adult / 2 adults and 1 child]
-- **Budget:** [Low / Moderate / Flexible]
-- **Location and season:** [e.g., Chennai, Tamil Nadu; current season/month]
-- **Other practical details:** [e.g., office lunchbox needed, access to a refrigerator, available kitchen equipment]
+## 2. USER PROFILE
 
-If an important detail is missing, do not invent it. Ask up to three short clarification questions before making the plan. Do not ask for optional measurements unless they are genuinely needed.
+Use the following information to personalise the meal plan:
 
----
+- Age: [Enter age]
+- Gender: [Enter gender]
+- Height: [Enter height]
+- Current Weight: [Enter weight]
+- Goal: Gradual and sustainable weight loss
+- Activity Level: [Sedentary / Lightly Active / Moderately Active / Very Active]
+- Food Preference: Vegetarian
+- Egg Preference: [Include eggs / No eggs]
+- Allergies or Medical Dietary Restrictions: [Enter details or None]
+- Foods Disliked or Avoided: [Enter foods or None]
+- Daily Meal Schedule: Breakfast, Lunch, Evening Snack, Dinner
+- Location: Tamil Nadu, South India
 
-## YOUR ROLE
+## 3. FOOD RULES
 
-Act as a practical, evidence-informed meal-planning assistant with knowledge of South Indian home cooking. Create a balanced, realistic vegetarian meal plan that supports gradual weight loss while respecting the personal details and constraints above.
+Follow these food guidelines:
 
-This is a general meal-planning draft, not a medical prescription. Do not diagnose conditions, promise a particular amount of weight loss, or prescribe a very low-calorie diet.
+- Use traditional South Indian vegetarian dishes.
+- Include idli, dosa, pongal, upma, chapati, rice, sambar, rasam, kootu, poriyal, sundal and curd.
+- Include seasonal vegetables and locally available fruits.
+- Include protein-rich foods such as dal, green gram, chickpeas, beans, paneer and curd.
+- Include eggs only if the user selects the egg option.
+- Prefer whole grains and millets where practical.
+- Use moderate amounts of cooking oil.
+- Avoid deep-fried foods, excessive sugar, sweets, soft drinks and highly processed foods.
+- Use affordable ingredients commonly available in Tamil Nadu.
+- Ensure variety throughout all seven days.
+- Avoid repeating the same breakfast or dinner excessively.
 
-## TASK
+## 4. MEAL PLAN REQUIREMENTS
 
-Prepare a **7-day South Indian vegetarian meal plan**, from Monday to Sunday. Every day must include:
+Create a complete 7-day meal plan covering:
 
 1. Breakfast
 2. Lunch
-3. One evening snack
+3. Evening Snack
 4. Dinner
 
-Name specific, familiar dishes and ingredients. Do not use vague descriptions such as “healthy breakfast” or “vegetable meal”.
+For every meal:
 
-## FOOD AND COOKING RULES
+- Mention the dish name clearly.
+- Specify the approximate portion size.
+- Include household measurements such as cups, pieces, tablespoons or grams.
+- Maintain a reasonable balance of carbohydrates, protein, healthy fats and fibre.
+- Include vegetables and protein sources regularly.
+- Keep dinner lighter than lunch where appropriate.
+- Suggest practical alternatives when an ingredient is unavailable.
 
-- Keep the food recognisably South Indian, using familiar home-style dishes such as idli, dosa, pesarattu, upma, pongal, idiyappam, puttu, sambar, rasam, kootu, poriyal, keerai, curd rice and vegetable rice where suitable.
-- Use ordinary ingredients commonly available in Tamil Nadu and nearby South Indian markets.
-- Prefer seasonal vegetables and fruits that are reasonably available in the stated location and season. If seasonality is uncertain, choose commonly available produce rather than claiming an ingredient is in season.
-- Include a variety of vegetables, fruits, pulses, legumes, whole grains and suitable protein sources across the week.
-- Include practical protein options such as dal, sambar, sundal, chana, green gram, beans, peas, curd, milk, paneer or tofu, according to the person's preferences.
-- Use familiar staples such as idli/dosa batter, rice, millets, ragi, whole-wheat items and traditional grains in sensible portions. Do not make every meal millet-based.
-- Do not rely on quinoa, avocado, protein powders, imported “diet foods”, expensive specialty ingredients or supplements.
-- Avoid deep-fried foods as everyday choices. Prefer steaming, boiling, pressure-cooking, grilling or using modest amounts of oil.
-- Keep meals varied. Do not repeat the same main dish on consecutive days unless there is a practical reason.
-- Make weekday cooking realistic within the stated time. Suggest sensible use of leftovers only when food can be stored and reheated safely.
-- Respect all listed allergies, restrictions, dislikes and food preferences. Never include an allergen as a “small amount”.
-- Provide meals that can work for the stated number of people; identify any portion that should be adjusted for children or other household members rather than assuming everyone needs the same amount.
+## 5. HEALTH AND WEIGHT MANAGEMENT GUIDELINES
 
-## BALANCE AND SAFETY GUARDRAILS
+- Focus on gradual and sustainable weight loss rather than crash dieting.
+- Consider the user's age, height, weight and activity level.
+- Avoid extreme calorie restrictions.
+- Provide adequate protein and dietary fibre.
+- Encourage sufficient water intake.
+- Recommend regular physical activity appropriate to the user's fitness level.
+- Do not promise a specific amount of weight loss.
+- Do not make medical claims or prescribe treatment.
+- If medical conditions or dietary restrictions are mentioned, recommend consulting a qualified healthcare professional or registered dietitian.
 
-- Aim for balanced meals with vegetables, a suitable protein source and an appropriate portion of carbohydrate.
-- Give ordinary household portion sizes, using measures such as cups, tablespoons, pieces or grams where practical.
-- Do not encourage skipping meals, fasting as a requirement, detoxes, crash diets, extreme calorie restriction or eliminating entire food groups.
-- Do not label foods as “good”, “bad” or “guilt-free”.
-- Do not calculate a strict calorie target unless the user has supplied enough relevant information and it is appropriate to do so. If you provide an approximate calorie estimate, clearly label it as an estimate, explain that needs vary, and avoid presenting it as a prescription.
-- If the person reports a medical condition, pregnancy, breastfeeding, a history of disordered eating, or a prescribed diet, advise them to have the plan reviewed by a qualified dietitian or healthcare professional. Do not modify prescribed treatment or dietary instructions.
-- State clearly that the plan is a starting point and should be reviewed by a qualified dietitian for individual dietary advice.
+## 6. OUTPUT FORMAT
 
-## REQUIRED OUTPUT FORMAT
+Present the final meal plan in a clear Markdown table.
 
-Start with a short note summarising the assumptions you used. Then provide one day-by-day table with exactly these columns:
+| Day | Meal | Dish | Portion Size |
+|---|---|---|---|
+| Monday | Breakfast | Idli with sambar | 3 idlis + 1 cup sambar |
+| Monday | Lunch | Rice, keerai kootu, beans poriyal and curd | 1 cup rice + 1/2 cup kootu + 1/2 cup poriyal + 1/2 cup curd |
+| Monday | Evening Snack | Sundal | 1 small cup |
+| Monday | Dinner | Vegetable dosa with sambar | 2 medium dosas + 1/2 cup sambar |
 
-| Day | Breakfast (dish and portion) | Lunch (dish and portion) | Evening snack (dish and portion) | Dinner (dish and portion) |
+Continue the same format for Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday.
 
-Requirements for the table:
-- Include all seven days, Monday through Sunday, with no missing meals.
-- Give a specific dish and a portion for every meal. Include useful accompaniments, such as sambar or chutney, and their portions where relevant.
-- Use household measures where possible (for example, 2 idlis, 1 cup sambar, ½ cup poriyal).
-- Keep each cell concise and easy to follow.
+## 7. ADDITIONAL OUTPUT
 
-After the table, add these short sections:
+After the 7-day meal plan, provide:
 
-### 1. Weekly shopping list
-Group ingredients under vegetables and greens, fruits, grains and staples, pulses and protein foods, dairy or alternatives, and other essentials. Give approximate quantities for the stated household size.
+### A. Daily Healthy Habits
+- Water intake guidance.
+- Physical activity suggestions.
+- Sleep recommendations.
+- Healthy eating habits.
 
-### 2. Simple preparation plan
-List practical batch-preparation tasks that save weekday time, such as washing and chopping vegetables, preparing batter, cooking legumes, or planning safe storage. Do not recommend leaving cooked food at room temperature for long periods.
+### B. Weekly Grocery List
+Group ingredients into:
+- Vegetables
+- Fruits
+- Cereals and millets
+- Pulses and legumes
+- Dairy products
+- Other essential ingredients
 
-### 3. Practical notes
-Mention simple hydration and activity habits without prescribing excessive water intake or strenuous exercise. Include one or two realistic substitutions for commonly unavailable ingredients.
+### C. Important Notes
+- Explain how portion control supports weight management.
+- Suggest healthy alternatives for common high-calorie foods.
+- Provide practical meal preparation tips.
 
-### 4. Safety note
-Remind the reader that this is a general draft, not personalised medical or dietetic advice, and that a qualified dietitian should review it—especially where medical conditions or special dietary needs apply.
+## 8. FINAL INSTRUCTIONS
 
-## FINAL QUALITY CHECK
-
-Before presenting the answer, check that:
-- There are exactly seven days and four eating occasions per day.
-- Every meal names a real South Indian vegetarian dish and gives a portion.
-- The plan follows the user's allergies, dislikes, budget, cooking time and household needs.
-- Ingredients are practical for the stated location and season.
-- Protein sources and vegetables are distributed across the week.
-- Portions are sensible and the plan does not promote extreme restriction.
-- The shopping list matches the meals in the table.
-
-If any requirement cannot be met, explain the limitation briefly instead of silently guessing.
+- Generate a complete 7-day meal plan.
+- Include all four meals for all seven days (28 meal entries).
+- Use simple English.
+- Use familiar South Indian food names.
+- Keep the plan realistic, affordable and easy to prepare at home.
+- Do not skip any day or meal.
+- Do not provide a generic meal plan; personalise it using the user profile.
+- Use Markdown formatting for easy reading and copying.
+- If essential profile information is missing, ask the user for clarification before generating the personalised plan.
